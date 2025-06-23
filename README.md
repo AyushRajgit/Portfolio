@@ -1,7 +1,7 @@
 # 🧑‍💻 Personal Portfolio Website
 
 A sleek and modern **developer portfolio** built using **React.js** and **Tailwind CSS**.  
-Showcasing my **projects**, **skills**, **achievements**, and **professional journey** in a fully responsive, dark-themed UI.
+Showcasing my **projects**, **skills**, **education**, and **professional journey** in a fully responsive, dark-themed UI.
 
 ---
 
