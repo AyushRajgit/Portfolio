@@ -3,7 +3,9 @@
 A sleek and modern **developer portfolio** built using **React.js** and **Tailwind CSS**.  
 Showcasing my **projects**, **skills**, **achievements**, and **professional journey** in a fully responsive, dark-themed UI.
 
-> 🚀 [Live Demo](https://portfolio-psi-nine-49.vercel.app/)
+---
+
+🚀 [Live Demo](https://portfolio-psi-nine-49.vercel.app/)
 
 ---
 
@@ -22,7 +24,10 @@ Showcasing my **projects**, **skills**, **achievements**, and **professional jou
 ## 🛠️ Tech Stack 
 
 ⚛️ React.js – JavaScript library for building UI
+
 💨 Tailwind CSS – Utility-first CSS framework
+
 🧭 React Router – Routing and navigation
+
 🌐 Vercel – Deployment platform
 
