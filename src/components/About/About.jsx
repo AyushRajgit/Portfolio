@@ -21,7 +21,7 @@ const About = () => {
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
             Ayush Raj
           </h2>
-          
+
           {/* Skills heading with typing effect */}
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
             <span className="text-white">I am a </span>
@@ -39,10 +39,10 @@ const About = () => {
           </h3>
 
           {/* About me paragraph */}
-          <p p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I'm a Java enthusiast and competitive programmer. 
-            Currently, Pupil @Codeforces, 3★ @CodeChef, 1600+ @LeetCode. 
-            Exploring full-stack web development with MERN stack and building real-world projects. 
+          <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
+            I'm a Java enthusiast and competitive programmer.
+            Currently, Pupil @Codeforces, 3★ @CodeChef, 1600+ @LeetCode.
+            Exploring full-stack web development with MERN stack and building real-world projects.
             CP/DSA Coordinator at DevUp Club, guided by the values of Lord Ram and Hanuman Ji, I strive for consistency, clarity, and continuous improvement.
           </p>
 
