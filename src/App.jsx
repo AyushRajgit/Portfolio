@@ -8,6 +8,7 @@ import Contact from './components/Contact/Contact'
 import About from './components/About/About'
 import Education from './components/Education/Education'
 import BlurBlob from './components/blurblob'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Projects></Projects>
         <Education></Education>
         <Contact></Contact>
+        <SpeedInsights />
         <Footer></Footer>
       </div>
     </div>
