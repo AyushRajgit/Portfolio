@@ -222,7 +222,7 @@ export const projects = [
       image: DevUpLogo,
       tags: ["React JS", "TailWind CSS", "HTML", "CSS", "JavaScript"],
       github: "https://github.com/AyushRajgit/Devups-Website.git",
-      webapp: "https://devups-website.vercel.app/",
+      webapp: "https://devup.co.in/",
     },
     {
       id: 2,
