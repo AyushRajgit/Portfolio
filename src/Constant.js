@@ -13,7 +13,7 @@ import pythonLogo from './assets/tech_logo/python.png';
 import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
-import figmaLogo from './assets/tech_logo/figma.png';
+import nodeLogo from './assets/tech_logo/nodejs.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 
 // Experience Section Logo's
@@ -55,6 +55,9 @@ export const SkillsInfo = [
   {
     title: 'Backend',
     skills: [
+      { name: 'Node JS', logo: nodeLogo },
+      // { name: 'Express', logo: expressLogo },
+      // { name: 'MongoDB', logo: mongoDBLogo },
       { name: 'MySQL', logo: mysqlLogo },
     ],
   },
@@ -75,7 +78,6 @@ export const SkillsInfo = [
       { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
       { name: 'Vercel', logo: vercelLogo },
-      { name: 'Figma', logo: figmaLogo },
     ],
   },
 ];
@@ -86,18 +88,18 @@ export const codingprofile = [
     title: "LeetCode",
     logo: leetcode_logo,
     link: "https://leetcode.com/u/ayushraj2450/",
-    rank: "1600+",
-    rating: "1600+",
-    description: "1600+ rated on LeetCode | Solved 550+ DSA problems | Consistently improving problem-solving skills through hands-on coding.",
+    rank: "Knight",
+    rating: "1800+",
+    description: "1800+ rated on LeetCode | Solved 850+ DSA problems | Consistently improving problem-solving skills through hands-on coding.",
   },
   {
     id: 1,
     title: "Codeforces",
     logo: codeforces_logo,
     link: "https://codeforces.com/profile/Ayush_Raj_2027",
-    rank: "pupil",
-    rating: "1200+",
-    description: " Pupil at Codeforces | On a relentless journey to sharpen my edge in competitive programming.",
+    rank: "Specialist",
+    rating: "1400+",
+    description: "Specialist at Codeforces | On a relentless journey to sharpen my edge in competitive programming.",
   },
   {
     id: 2,
@@ -105,7 +107,7 @@ export const codingprofile = [
     logo: codechef_logo,
     link: "https://www.codechef.com/users/ayushraj2450",
     rank: "3 Star",
-    rating: "1600+",
+    rating: "1700+",
     description: "Achieved 2★ on CodeChef after consistent effort and dedication to enhance my problem-solving skills.",
   },
   {
@@ -123,9 +125,9 @@ export const codingprofile = [
     {
       id: 0,
       img: webverseLogo,
-      role: "Fullstack Developer",
-      company: "Webverse Digital",
-      date: "April 2024 - Present",
+      role: "Technical Trainer Intern",
+      company: "TeachToTech",
+      date: "February 2026 - Present",
       desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
       skills: [
         "HTML",
