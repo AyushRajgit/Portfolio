@@ -88,9 +88,9 @@ export const codingprofile = [
     title: "LeetCode",
     logo: leetcode_logo,
     link: "https://leetcode.com/u/ayushraj2450/",
-    rank: "Knight",
-    rating: "1800+",
-    description: "1800+ rated on LeetCode | Solved 850+ DSA problems | Consistently improving problem-solving skills through hands-on coding.",
+    rank: "1600+",
+    rating: "1600+",
+    description: "1600+ rated on LeetCode | Solved 550+ DSA problems | Consistently improving problem-solving skills through hands-on coding.",
   },
   {
     id: 1,
@@ -224,7 +224,7 @@ export const projects = [
       image: DevUpLogo,
       tags: ["React JS", "TailWind CSS", "HTML", "CSS", "JavaScript"],
       github: "https://github.com/AyushRajgit/Devups-Website.git",
-      webapp: "https://devups-website.vercel.app/",
+      webapp: "https://devup.co.in/",
     },
     {
       id: 2,
