@@ -88,9 +88,9 @@ export const codingprofile = [
     title: "LeetCode",
     logo: leetcode_logo,
     link: "https://leetcode.com/u/ayushraj2450/",
-    rank: "1600+",
-    rating: "1600+",
-    description: "1600+ rated on LeetCode | Solved 550+ DSA problems | Consistently improving problem-solving skills through hands-on coding.",
+    rank: "Knight",
+    rating: "1800+",
+    description: "1800+ rated on LeetCode | Solved 850+ DSA problems | Consistently improving problem-solving skills through hands-on coding.",
   },
   {
     id: 1,
