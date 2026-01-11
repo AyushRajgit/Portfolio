@@ -41,9 +41,9 @@ const About = () => {
           {/* About me paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
             I'm a Java enthusiast and competitive programmer.
-            Currently, Pupil @Codeforces, 3★ @CodeChef, 1600+ @LeetCode.
+            Currently, Knight @LeetCode, Specialist @Codeforces, 3★ @CodeChef.
             Exploring full-stack web development with MERN stack and building real-world projects.
-            CP/DSA Coordinator at DevUp Club, guided by the values of Lord Ram and Hanuman Ji, I strive for consistency, clarity, and continuous improvement.
+            Vice-President at DevUp Club, guided by the values of Lord Ram and Hanuman Ji, I strive for consistency, clarity, and continuous improvement.
           </p>
 
           {/* Resume Button */}
