@@ -8,6 +8,7 @@ import Contact from './components/Contact/Contact'
 import About from './components/About/About'
 import Education from './components/Education/Education'
 import BlurBlob from './components/blurblob'
+import Experience from './components/Experience/Experience'
 
 function App() {
   return (
