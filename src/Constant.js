@@ -24,6 +24,7 @@ import KIET_LOGO from './assets/education_logo/kiet_logo.jpeg';
 import FCS_LOGO from './assets/education_logo/fcs_logo.png';
 
 // Project Section Logo's
+import ProctoHireLogo from './assets/project_logo/proctohire.png';
 import FlexFitnessLogo from './assets/project_logo/flexfitness.png';
 import DevUpLogo from './assets/project_logo/devup.png';
 import LodgefyLogo from './assets/project_logo/lodgefy.png';
@@ -171,8 +172,17 @@ export const education = [
 ];
   
 export const projects = [
-    {
+  {
       id: 0,
+      title: "ProctoHire",
+      description: "A next-generation AI-proctored and collaborative interview platform. It eliminates context-switching by featuring secure 1-on-1 live video rooms with an integrated VSCode-powered coding sandbox. It also includes an autonomous AI mock interview module with edge-computed proctoring to detect malpractice in real-time, instantly generating actionable 'Trust & Tech' scores for recruiters.",
+      image: ProctoHireLogo,
+      tags: ["React.js", "Node.js", "MongoDB", "WebRTC", "Socket.io", "TensorFlow.js", "Tailwind CSS"],
+      github: "https://github.com/AyushRajgit/ProctoHire-v1", 
+      webapp: "https://procto-hire-v1.vercel.app/", 
+    },
+    {
+      id: 1,
       title: "FlexFitness",
       description:"FlexFitness is a modern, responsive fitness platform designed to help users achieve their health goals. Whether you're into strength training, cardio, or personalized workout plans, FlexFitness offers expert trainer guidance, progress tracking, diet plans, and more — all in one powerful, user-friendly interface.",
       image: FlexFitnessLogo,
@@ -181,7 +191,7 @@ export const projects = [
       webapp: "https://flex-fitness-one.vercel.app/",
     },
     {
-      id: 1,
+      id: 2,
       title: "DevUp",
       description:"Welcome to DevUp, the official coding club.We empower students to grow in Competitive Programming, Web Development, Machine Learning, and more. Join us to level up your skills through hands-on projects, contests, and peer learning.",
       image: DevUpLogo,
@@ -190,7 +200,7 @@ export const projects = [
       webapp: "https://devup.co.in/",
     },
     {
-      id: 2,
+      id: 3,
       title: "Lodgefy",
       description:"Lodgefy is a smart and user-friendly web application designed to help students and working professionals easily find the best hostels and PG accommodations. With features like real-time availability, hostel details, images, filters, and more, Lodgefy makes the search process smooth and reliable.",
       image: LodgefyLogo,
@@ -199,7 +209,7 @@ export const projects = [
       webapp: "https://lodgefy.vercel.app/",
     },
     {
-      id: 3,
+      id: 4,
       title: "MeghaLoom",
       description: "Megha Loom is a sleek, responsive weather application built using React and styled with Tailwind CSS, designed to deliver real-time weather updates in a minimalist UI 🌤️.It is deployed live on Vercel for easy access across devices.",
       image: MeghaLoomLogo,
@@ -208,7 +218,7 @@ export const projects = [
       webapp: "https://megha-loom.vercel.app/",
     },
     {
-      id: 4,
+      id: 5,
       title: "VLC Media Player ",
       description:"A modern and responsive VLC-style web media player that allows users to play, pause, skip, and control video/audio directly from the browser — built with a sleek UI and essential playback features.",
       image: VLCMediaPlayerLogo,
@@ -217,7 +227,7 @@ export const projects = [
       webapp: "https://vlc-media-player-coral.vercel.app/",
     },
     {
-      id: 5,
+      id: 6,
       title: "Calculator",
       description:"A simple, responsive, and user-friendly calculator built using HTML, CSS, and JavaScript. This web app performs basic arithmetic operations such as addition, subtraction, multiplication, and division with a modern UI.",
       image: CalculatorLogo,
