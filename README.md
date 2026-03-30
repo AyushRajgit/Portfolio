@@ -5,10 +5,6 @@ Showcasing my **projects**, **skills**, **education**, and **professional journe
 
 ---
 
-🚀 [Live Demo](https://portfolio-psi-nine-49.vercel.app/)
-
----
-
 ## ✨ Features
 
 - 💼 Project Showcases with tech stack
