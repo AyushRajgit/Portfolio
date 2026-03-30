@@ -42,10 +42,9 @@ import geeksforgeeks_logo from './assets/coding_profile/geeksforgeeks_logo.png';
 export const achievementsList = [
   {
     id: 1,
-    title: "Knight @ LeetCode",
-    date: "Current Rating: 1950+", 
-    description: "Consistently participated in weekly contests, achieving the Knight badge by ranking in the top percentiles globally out of thousands of competitive programmers.",
-    // Now an array! You can put multiple image links here.
+    title: "1st Runner Up",
+    date: "ICAC Algorithmic Cup", 
+    description: "Our team secured 1st  Runner-up Position among 80+ teams at ICAC(Inter College Alogorithm Cup) hosted on Codeforces and organized by GDG",
     images: [
       "https://via.placeholder.com/600x400/1f1f1f/8245ec?text=LeetCode+Badge", 
       "https://via.placeholder.com/600x400/1f1f1f/8245ec?text=LeetCode+Graph"
@@ -53,10 +52,9 @@ export const achievementsList = [
   },
   {
     id: 2,
-    title: "Specialist @ Codeforces",
-    date: "Max Rating: 1450", 
-    description: "Developed strong algorithmic thinking and data structure optimization skills through intense, time-constrained competitive programming rounds.",
-    // If you only have one image, just put one item in the array.
+    title: "Ranked 8th",
+    date: "KCPC Algorithmic Cup", 
+    description: "Our team secured 8th Position among 160+ teams at KCPC Alogorithm Cup hosted on Codeforces and organized by K3.",
     images: [
       "https://via.placeholder.com/600x400/1f1f1f/8245ec?text=Codeforces+Profile"
     ], 
