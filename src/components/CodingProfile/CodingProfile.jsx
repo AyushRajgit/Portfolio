@@ -14,6 +14,7 @@ const CodingProfile = () => {
                 <div className="text-center mb-16">
                     <h2 className="text-4xl font-bold text-white">CODING PROFILE</h2>
                     <div className="w-34 h-1 bg-purple-500 mx-auto mt-4"></div>
+                    
                     <p className="text-gray-400 mt-4 text-lg font-semibold">
                         Showcasing my competitive programming journey and problem-solving skills across some top coding platforms
                     </p>
