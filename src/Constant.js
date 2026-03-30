@@ -39,12 +39,12 @@ import codechef_logo from './assets/coding_profile/codechef_logo.png';
 import geeksforgeeks_logo from './assets/coding_profile/geeksforgeeks_logo.png';
 
 // Achievements Logo :
-import ICAC1 from './assets/Achievement_Img/ICAC1.png';
-import ICAC2 from './assets/Achievement_Img/ICAC2.png';  
-import ICAC3 from './assets/Achievement_Img/ICAC3.png';
-import ICAC4 from './assets/Achievement_Img/ICAC4.png';
-import K3PC1 from './assets/Achievement_Img/K3PC1.png';
-import K3PC2 from './assets/Achievement_Img/K3PC2.png';  
+import ICAC1 from './assets/Achievement_Img/ICAC1.jpg';
+import ICAC2 from './assets/Achievement_Img/ICAC2.jpg';  
+import ICAC3 from './assets/Achievement_Img/ICAC3.jpg';
+import ICAC4 from './assets/Achievement_Img/ICAC4.jpg';
+import K3PC1 from './assets/Achievement_Img/K3PC1.jpg';
+import K3PC2 from './assets/Achievement_Img/K3PC2.jpg';  
 
 
 // Achievements Section : 
