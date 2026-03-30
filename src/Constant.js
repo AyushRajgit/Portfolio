@@ -46,14 +46,13 @@ import ICAC4 from './assets/Achievement_Img/ICAC4.jpg';
 import K3PC1 from './assets/Achievement_Img/K3PC1.jpg';
 import K3PC2 from './assets/Achievement_Img/K3PC2.jpg';  
 
-
 // Achievements Section : 
 export const achievementsList = [
   {
     id: 1,
-    title: "1st Runner Up",
+    title: "1st Runner-Up",
     date: "ICAC Algorithmic Cup", 
-    description: "Our team secured 1st  Runner-up Position among 80+ teams at ICAC(Inter College Alogorithm Cup) hosted on Codeforces and organized by GDG",
+    description: "Collaborated to secure the 1st Runner-Up position out of 80+ teams at the Inter College Algorithm Cup (ICAC). Hosted on Codeforces and organized by GDG, this event tested rapid problem-solving and teamwork under strict time constraints.",
     images: [
       ICAC4, 
       ICAC2, 
@@ -65,9 +64,10 @@ export const achievementsList = [
     id: 2,
     title: "Ranked 8th",
     date: "KCPC Algorithmic Cup", 
-    description: "Our team secured 8th Position among 160+ teams at KCPC Alogorithm Cup hosted on Codeforces and organized by K3.",
+    description: "Achieved an 8th place finish among 160+ competing teams at the KCPC Algorithm Cup hosted on Codeforces. Navigated complex algorithmic challenges alongside my team to deliver optimized solutions.",
     images: [
-      K3PC1,K3PC2
+      K3PC1,
+      K3PC2
     ], 
   }
 ];
