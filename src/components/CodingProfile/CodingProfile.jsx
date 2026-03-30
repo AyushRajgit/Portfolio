@@ -23,8 +23,8 @@ const CodingProfile = () => {
 
                 <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 py-10 justify-items-center">
                     {codingprofile.map((profile) => (
-                        {/* Restored purple hover shadow */}
                         <div key={profile.id} className="group w-full max-w-md flex flex-col border border-white bg-gray-900 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden cursor-pointer hover:shadow-[0_0_20px_1px_rgba(130,69,236,0.3)] hover:-translate-y-2 transition-all duration-300">
+                            {/* Restored purple hover shadow - moved comment inside the div! */}
 
                             <div className="w-full p-4 pb-0">
                                 <img src={profile.logo} alt={profile.title} className="w-full h-48 object-cover rounded-xl" />
@@ -35,7 +35,6 @@ const CodingProfile = () => {
                                     <h1 className="text-2xl font-bold text-white mb-1">{profile.title}</h1>
 
                                     <div className="flex items-center text-white text-lg bg-gray-800 px-3 py-1 rounded-full border border-gray-700">
-                                        
                                         <Trophy className="w-4 h-4 mr-2 text-[#8245ec]" />
                                         <span className="text-white text-sm font-semibold">{profile.rank}</span>
                                     </div>
