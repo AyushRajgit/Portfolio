@@ -44,11 +44,11 @@ const CodingProfile = () => {
                             </div>
 
                             <div className="mt-auto">
-                                <button onClick={() => handleViewProfile(profile.link)} className={`w-full bg-gradient-to-r ${profile.bgGradient || 'from-purple-600 to-blue-600'} text-white font-semibold py-4 px-6 hover:shadow-2xl hover:shadow-purple-500/25 transition-all duration-500 flex items-center justify-center relative overflow-hidden`} >
-                                    <div className="absolute inset-0 bg-white/20 transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
-                                    <span className="mr-2 relative z-10">View Profile</span>
-                                    <ExternalLink className="w-5 h-5 transition-transform group-hover:translate-x-1 group-hover:scale-110 relative z-10" />
-                                </button>
+                                <button onClick={() => handleViewProfile(profile.link)} className={`w-full ${profile.bgGradient || 'bg-[#8245ec]'} text-white font-semibold py-4 px-6 hover:shadow-2xl hover:shadow-[#8245ec]/40 transition-all duration-500 flex items-center justify-center relative overflow-hidden`} >
+    <div className="absolute inset-0 bg-white/20 transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
+    <span className="mr-2 relative z-10">View Profile</span>
+    <ExternalLink className="w-5 h-5 transition-transform group-hover:translate-x-1 group-hover:scale-110 relative z-10" />
+</button>
                             </div>
                         </div>
                     ))}
