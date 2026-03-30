@@ -16,10 +16,8 @@ import vscodeLogo from './assets/tech_logo/vscode.png';
 import nodeLogo from './assets/tech_logo/nodejs.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 
-// Experience Section Logo's
-// import webverseLogo from './assets/company_logo/webverse_logo.png';
-// import agcLogo from './assets/company_logo/agc_logo.png';
-// import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
+Experience Section Logo's
+import TeachToTech_Logo from './assets/company_logo/TeachToTech_Img.png';
 
 // Education Section Logo's
 import KIET_LOGO from './assets/education_logo/kiet_logo.jpeg';
@@ -121,61 +119,26 @@ export const codingprofile = [
   },
 ];
 
-  /*export const experiences = [
-    {
-      id: 0,
-      img: webverseLogo,
-      role: "Technical Trainer Intern",
-      company: "TeachToTech",
-      date: "February 2026 - Present",
-      desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
-      skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React JS",
-        "TypeScript",
-        "Node JS",
-        "Tailwind CSS",
-        "MongoDb",
-        "Redux",
-        " Next Js",
-      ],
-    },
-    {
-      id: 1,
-      img: agcLogo,
-      role: "Fullstack Engineer",
-      company: "Agumentik Group of Companies",
-      date: "July 2023 - March 2024",
-      desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-      skills: [
-        "ReactJS",
-        "Redux",
-        "JavaScript",
-        "Tailwind CSS",
-        "HTML",
-        "CSS",
-        "SQL",
-      ],
-    },
-    {
-      id: 2,
-      img: newtonschoolLogo,
-      role: "Frontend Intern",
-      company: "Newton School",
-      date: "September 2021 - August 2022",
-      desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-      skills: [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Bootstrap",
-        "Figma",
-        "Material UI",
-      ],
-    },
-  ];*/
+export const experiences = [
+  {
+    id: 0,
+    img: TeachToTech_Logo,
+    role: "Technical Trainer Intern",
+    company: "TeachToTech",
+    date: "December 2025 - Present",
+    desc: "Mentored and guided students in data structures, algorithms, and problem-solving techniques, helping them strengthen their coding fundamentals. Conducted doubt-solving sessions, explained complex concepts in a structured manner, and assisted learners in improving their performance in coding interviews and competitive programming. Contributed to creating educational content and curated practice problems to enhance learning outcomes.",
+    skills: [
+      "Data Structures & Algorithms",
+      "Problem Solving",
+      "Java",
+      "Teaching & Mentoring",
+      "Competitive Programming",
+      "Communication",
+      "Debugging",
+      "Content Creation"
+    ],
+  },
+];
   
 export const education = [
     {
