@@ -21,8 +21,9 @@ const Skills = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10 py-4">
 
           {SkillsInfo.map((category) => (
-            {/* Added h-full and flex-col to make cards equal height automatically */}
             <div key={category.title} className="bg-gray-900 backdrop-blur-md px-6 sm:px-10 py-8 rounded-2xl border border-white shadow-[0_0_20px_1px_rgba(236,72,153,0.3)] flex flex-col h-full">
+              {/* Added h-full and flex-col to make cards equal height automatically */}
+              
               <h3 className="text-2xl sm:text-3xl font-semibold text-gray-400 mb-8 text-center">{category.title}</h3>
 
               {/* Skill Items */}
