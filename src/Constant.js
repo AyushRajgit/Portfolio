@@ -16,7 +16,7 @@ import vscodeLogo from './assets/tech_logo/vscode.png';
 import nodeLogo from './assets/tech_logo/nodejs.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 
-Experience Section Logo's
+// Experience Section Logo's
 import TeachToTech_Logo from './assets/tech_logo/TeachToTech_Img.jpg';
 
 // Education Section Logo's
