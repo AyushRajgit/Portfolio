@@ -17,7 +17,7 @@ import nodeLogo from './assets/tech_logo/nodejs.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 
 Experience Section Logo's
-import TeachToTech_Logo from './assets/company_logo/TeachToTech_Img.png';
+import TeachToTech_Logo from './assets/tech_logo/TeachToTech_Img.jpg';
 
 // Education Section Logo's
 import KIET_LOGO from './assets/education_logo/kiet_logo.jpeg';
