@@ -38,6 +38,15 @@ import codeforces_logo from './assets/coding_profile/codeforces_logo.png';
 import codechef_logo from './assets/coding_profile/codechef_logo.png';
 import geeksforgeeks_logo from './assets/coding_profile/geeksforgeeks_logo.png';
 
+// Achievements Logo :
+import ICAC1 from './assets/Achievement_Img/ICAC1.png';
+import ICAC2 from './assets/Achievement_Img/ICAC2.png';  
+import ICAC3 from './assets/Achievement_Img/ICAC3.png';
+import ICAC4 from './assets/Achievement_Img/ICAC4.png';
+import K3PC1 from './assets/Achievement_Img/K3PC1.png';
+import K3PC2 from './assets/Achievement_Img/K3PC2.png';  
+
+
 // Achievements Section : 
 export const achievementsList = [
   {
@@ -46,8 +55,10 @@ export const achievementsList = [
     date: "ICAC Algorithmic Cup", 
     description: "Our team secured 1st  Runner-up Position among 80+ teams at ICAC(Inter College Alogorithm Cup) hosted on Codeforces and organized by GDG",
     images: [
-      "https://via.placeholder.com/600x400/1f1f1f/8245ec?text=LeetCode+Badge", 
-      "https://via.placeholder.com/600x400/1f1f1f/8245ec?text=LeetCode+Graph"
+      ICAC4, 
+      ICAC2, 
+      ICAC3,
+      ICAC1,
     ], 
   },
   {
@@ -56,7 +67,7 @@ export const achievementsList = [
     date: "KCPC Algorithmic Cup", 
     description: "Our team secured 8th Position among 160+ teams at KCPC Alogorithm Cup hosted on Codeforces and organized by K3.",
     images: [
-      "https://via.placeholder.com/600x400/1f1f1f/8245ec?text=Codeforces+Profile"
+      K3PC1,K3PC2
     ], 
   }
 ];
@@ -78,8 +89,8 @@ export const SkillsInfo = [
     title: 'Backend',
     skills: [
       { name: 'Node JS', logo: nodeLogo },
-      // { name: 'Express', logo: expressLogo },
-      // { name: 'MongoDB', logo: mongoDBLogo },
+      { name: 'Express', logo: expressLogo },
+      { name: 'MongoDB', logo: mongoDBLogo },
       { name: 'MySQL', logo: mysqlLogo },
     ],
   },
