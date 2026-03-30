@@ -29,13 +29,15 @@ const AchievementCard = ({ item }) => {
             perspective={1000}
             scale={1.02}
             transitionSpeed={1000}
-            className="w-full max-w-md flex flex-col h-full"
+            // Adjusted max-width to let the card grow slightly wider to accommodate the taller image
+            className="w-full max-w-[28rem] flex flex-col h-full"
         >
             <div className="group flex-grow flex flex-col border border-white/20 bg-gray-900 backdrop-blur-md rounded-2xl shadow-xl overflow-hidden hover:shadow-[0_0_20px_1px_rgba(130,69,236,0.3)] hover:-translate-y-2 transition-all duration-300">
                 
                 {/* Image Slider Section */}
                 <div className="w-full p-4 pb-0 relative">
-                    <div className="relative w-full h-48 sm:h-56 rounded-xl overflow-hidden border border-gray-800 group-hover:border-[#8245ec]/50 transition-colors duration-500">
+                    {/* CHANGED: Increased height from h-48/56 to h-64/72 to make pictures bigger */}
+                    <div className="relative w-full h-64 sm:h-72 rounded-xl overflow-hidden border border-gray-800 group-hover:border-[#8245ec]/50 transition-colors duration-500">
                         
                         {imageArray.length > 0 && (
                             <img 
@@ -109,7 +111,7 @@ const Achievements = () => {
                 </p>
             </div>
 
-            <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-10 justify-items-center">
+            <div className="flex flex-wrap gap-8 py-10 justify-center items-stretch">
                 {achievementsList.map((item) => (
                     <AchievementCard key={item.id} item={item} />
                 ))}
