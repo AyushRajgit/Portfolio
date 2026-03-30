@@ -5,7 +5,7 @@ const Education = () => {
   return (
     <section
       id="education"
-      className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[16vw] font-sans bg-skills-gradient clip-path-custom-3"
+      className="py-24 pb-24 px-[5vw] md:px-[7vw] lg:px-[10vw] font-sans bg-skills-gradient clip-path-custom-3 overflow-hidden"
     >
       {/* Section Title */}
       <div className="text-center mb-16">
@@ -17,32 +17,34 @@ const Education = () => {
       </div>
 
       {/* Timeline Container */}
-      <div className="relative">
+      <div className="relative w-full max-w-6xl mx-auto">
+        
         {/* Vertical Line */}
-        <div className="absolute left-1/2 transform -translate-x-1/2 w-1 bg-white h-full"></div>
+        <div className="absolute left-6 sm:left-1/2 transform sm:-translate-x-1/2 w-1 bg-white h-full z-0"></div>
 
         {/* Education Entries */}
         {education.map((edu, index) => (
           <div
             key={edu.id}
-            className={`flex flex-col sm:flex-row items-center mb-16 ${
+            className={`relative flex items-center mb-16 ${
               index % 2 === 1 ? 'sm:justify-end' : 'sm:justify-start'
-            }`}
+            } justify-end`}
           >
+            <div className="absolute left-6 sm:left-1/2 transform -translate-x-1/2 bg-[#8245ec] border-4 border-white w-6 h-6 sm:w-8 sm:h-8 rounded-full z-10"></div>
+
             {/* Card */}
             <div
-              className={`w-full sm:max-w-md p-6 sm:p-8 rounded-2xl shadow-2xl border border-white bg-gray-900 backdrop-blur-md shadow-[0_0_20px_1px_rgba(130,69,236,0.3)]
-              transform transition-transform duration-300 hover:scale-105
-              ${index % 2 === 0 ? 'sm:ml-0' : 'sm:mr-0'} sm:ml-44 sm:mr-44 ml-8`}
+              className={`w-[80%] sm:w-[45%] p-6 sm:p-8 rounded-2xl shadow-2xl border border-white bg-gray-900 backdrop-blur-md shadow-[0_0_20px_1px_rgba(130,69,236,0.3)]
+              transform transition-transform duration-300 hover:scale-105 z-10`}
             >
-              {/* Now vertical layout inside card */}
               <div className="flex flex-col items-center text-center space-y-4">
+                
                 {/* School Logo */}
-                <div className="w-24 h-20 bg-white rounded-md overflow-hidden">
+                <div className="w-24 h-20 bg-white rounded-md overflow-hidden flex-shrink-0">
                   <img
                     src={edu.img}
                     alt={edu.school}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain p-2" 
                   />
                 </div>
 
@@ -54,8 +56,8 @@ const Education = () => {
                 </div>
 
                 {/* Grade and Description */}
-                <p className="text-gray-400 font-bold">Grade: {edu.grade}</p>
-                <p className="text-gray-400">{edu.desc}</p>
+                <p className="text-[#8245ec] font-bold">Grade: {edu.grade}</p>
+                <p className="text-gray-400 text-sm sm:text-base">{edu.desc}</p>
               </div>
             </div>
           </div>
