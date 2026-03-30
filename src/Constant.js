@@ -38,6 +38,31 @@ import codeforces_logo from './assets/coding_profile/codeforces_logo.png';
 import codechef_logo from './assets/coding_profile/codechef_logo.png';
 import geeksforgeeks_logo from './assets/coding_profile/geeksforgeeks_logo.png';
 
+// Achievements Section : 
+export const achievementsList = [
+  {
+    id: 1,
+    title: "Knight @ LeetCode",
+    date: "Current Rating: 1950+", 
+    description: "Consistently participated in weekly contests, achieving the Knight badge by ranking in the top percentiles globally out of thousands of competitive programmers.",
+    // Now an array! You can put multiple image links here.
+    images: [
+      "https://via.placeholder.com/600x400/1f1f1f/8245ec?text=LeetCode+Badge", 
+      "https://via.placeholder.com/600x400/1f1f1f/8245ec?text=LeetCode+Graph"
+    ], 
+  },
+  {
+    id: 2,
+    title: "Specialist @ Codeforces",
+    date: "Max Rating: 1450", 
+    description: "Developed strong algorithmic thinking and data structure optimization skills through intense, time-constrained competitive programming rounds.",
+    // If you only have one image, just put one item in the array.
+    images: [
+      "https://via.placeholder.com/600x400/1f1f1f/8245ec?text=Codeforces+Profile"
+    ], 
+  }
+];
+
 
 export const SkillsInfo = [
   {
