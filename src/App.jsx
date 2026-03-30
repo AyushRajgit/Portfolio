@@ -9,6 +9,7 @@ import About from './components/About/About'
 import Education from './components/Education/Education'
 import BlurBlob from './components/blurblob'
 import Experience from './components/Experience/Experience'
+import Achievements from './components/Achievements/Achievements'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Experience></Experience>
         <Projects></Projects>
         <Education></Education>
+        <Achievements></Achievements>
         <Contact></Contact>
         <Footer></Footer>
       </div>
